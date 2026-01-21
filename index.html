@@ -1,0 +1,223 @@
+script async="async" data-cfasync="false" src="https://pl26996264.effectivegatecpm.com/bf1f3145e4ee8625b44a01f52f3c991b/invoke.js"></script>
+<div id="container-bf1f3145e4ee8625b44a01f52f3c991b"></div>
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<title>Happy Basant Panchami</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: "Poppins", Arial, sans-serif;
+  min-height:100vh;
+  background:
+    radial-gradient(circle at top, #fff7cc, #ffcc00, #ff9800);
+  text-align:center;
+  color:#4a2c00;
+  overflow-x:hidden;
+}
+
+/* 🌈 Divine animated background lights */
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  background:
+    repeating-radial-gradient(circle, rgba(255,255,255,.15) 0 10px, transparent 10px 20px);
+  animation: bgMove 20s linear infinite;
+  z-index:-2;
+}
+@keyframes bgMove{
+  from{transform:rotate(0deg)}
+  to{transform:rotate(360deg)}
+}
+
+.container{padding:30px 10px 60px}
+
+/* 🌼 Card */
+.card{
+  max-width:430px;
+  margin:auto;
+  background:rgba(255,255,255,.35);
+  backdrop-filter: blur(8px);
+  border-radius:20px;
+  padding:20px;
+  box-shadow:0 0 40px rgba(255,215,0,.8);
+}
+
+/* 🌟 Maa Saraswati divine aura */
+.image-wrap{
+  position:relative;
+  display:inline-block;
+}
+.image-wrap::before{
+  content:"";
+  position:absolute;
+  inset:-25px;
+  border-radius:50%;
+  background:
+    radial-gradient(circle, rgba(255,255,255,.9), rgba(255,215,0,.6), transparent 70%);
+  animation: aura 3s ease-in-out infinite;
+  z-index:-1;
+}
+@keyframes aura{
+  0%{transform:scale(1)}
+  50%{transform:scale(1.1)}
+  100%{transform:scale(1)}
+}
+
+.hero{
+  width:100%;
+  max-width:320px;
+  border-radius:16px;
+  box-shadow:0 0 35px gold;
+  animation: zoomGlow 2.8s ease-in-out infinite;
+}
+@keyframes zoomGlow{
+  0%{transform:scale(1)}
+  50%{transform:scale(1.06)}
+  100%{transform:scale(1)}
+}
+
+/* 🎆 Garland lights */
+.garland{
+  font-size:22px;
+  letter-spacing:6px;
+  animation: blink 1.2s infinite alternate;
+}
+@keyframes blink{
+  from{opacity:.6}
+  to{opacity:1}
+}
+
+h1{
+  margin:14px 0 8px;
+  font-size:26px;
+  color:#b8860b;
+  text-shadow:0 0 15px #fff;
+  animation: glowText 2s infinite alternate;
+}
+@keyframes glowText{
+  from{text-shadow:0 0 10px #fff}
+  to{text-shadow:0 0 25px gold}
+}
+
+.from{
+  font-weight:bold;
+  font-size:16px;
+}
+
+/* 🕉️ Devotional vibrating text */
+.bhakti{
+  margin-top:14px;
+  font-size:17px;
+  font-weight:700;
+  color:#6a1b00;
+  text-shadow:0 0 15px #ffd700;
+  animation: vibrate 1.5s infinite alternate;
+}
+@keyframes vibrate{
+  0%{transform:translateX(-1px)}
+  100%{transform:translateX(1px)}
+}
+
+input{
+  width:90%;
+  padding:10px;
+  border-radius:8px;
+  border:2px solid #e6b800;
+  margin-top:12px;
+  font-size:15px;
+}
+
+.btn{
+  margin-top:10px;
+  padding:10px 20px;
+  border:none;
+  border-radius:8px;
+  background:linear-gradient(45deg,#ffeb3b,#ff9800);
+  font-weight:bold;
+  cursor:pointer;
+  box-shadow:0 0 10px #ffcc00;
+}
+
+.wa{
+  background:linear-gradient(45deg,#25D366,#1ebc57);
+  color:white;
+}
+
+.link{margin-top:10px;word-break:break-all}
+
+.footer{
+  margin-top:16px;
+  font-size:14px;
+  color:#4e2600;
+  font-weight:600;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="card">
+
+    <div class="garland">💡✨💡✨💡✨💡✨💡</div>
+
+    <div class="image-wrap">
+      <img src="./saraswati.jpg" class="hero" alt="Maa Saraswati">
+    </div>
+
+    <div class="garland">✨💡✨💡✨💡✨💡✨</div>
+
+    <h1>🌼 Happy Basant Panchami 🌼</h1>
+    <div id="fromText" class="from"></div>
+
+    <div class="bhakti">
+      🕉️ या कुन्देन्दु तुषारहार धवला 🕉️<br>
+      📿 माँ सरस्वती सदैव आपके जीवन में ज्ञान,
+      विद्या और विवेक का प्रकाश भरें 📿
+    </div>
+
+    <input id="nameInput" placeholder="अपना शुभ नाम लिखें">
+    <br>
+    <button class="btn" onclick="generateLink()">🙏 शुभकामना लिंक बनाएं</button>
+
+    <div id="linkBox" class="link"></div>
+
+    <button class="btn wa" onclick="shareWhatsApp()">📲 WhatsApp पर भेजें</button>
+
+    <div class="footer">
+      🌸 माँ सरस्वती की असीम कृपा आप पर बनी रहे 🌸
+    </div>
+
+  </div>
+</div>
+
+<script>
+const p=new URLSearchParams(location.search);
+const f=p.get("from");
+if(f){
+  fromText.innerText="🙏 शुभकामनाएं भेजने वाले: "+decodeURIComponent(f);
+}
+
+function generateLink(){
+  const n=nameInput.value.trim();
+  if(!n){alert("कृपया अपना नाम लिखें");return;}
+  const l=location.origin+location.pathname+"?from="+encodeURIComponent(n);
+  linkBox.innerHTML="🔗 इस पावन लिंक को साझा करें<br><a href='"+l+"'>"+l+"</a>";
+}
+
+function shareWhatsApp(){
+  const t="🌼 Happy Basant Panchami 🌼\nमाँ सरस्वती की कृपा आप पर बनी रहे 🙏\n\n"+location.href;
+  window.open("https://wa.me/?text="+encodeURIComponent(t));
+}
+</script>
+
+</body>
+</html>
+<script src="https://pl28526543.effectivegatecpm.com/fc/92/3a/fc923ab1181987bbf9daf3f8e197dc6f.js"></script>
+<script async="async" data-cfasync="false" src="https://pl26978948.effectivegatecpm.com/cdf5ca0feade1b2376b2fa2fabdae9f4/invoke.js"></script>
+<div id="container-cdf5ca0feade1b2376b2fa2fabdae9f4"></div>
